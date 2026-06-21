@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    background-color: #F9F5EE; /* Мягкий молочный фон */
+    color: #2D2B2A; /* Теплый угольный текст */
+  }
+
+  /* Нежный кофейный скроллбар */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F9F5EE;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E5D3C3;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7A746F;
+  }
+}
